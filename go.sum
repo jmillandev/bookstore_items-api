@@ -1,0 +1,8 @@
+github.com/federicoleon/golang-restclient v0.0.0-20191104170228-162ed620df66 h1:QESWlOIiziWcM4bCvtT7TFg4PXjudKMnO3ArjxuIJj4=
+github.com/federicoleon/golang-restclient v0.0.0-20191104170228-162ed620df66/go.mod h1:lvjF6h5LrES4h39ha/njlBBBqCmISh6BNSEiXH+mT5k=
+github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
+github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
+github.com/jmillandev/bookstore_oauth-go v0.0.0-20211202041241-5d34e26e5864 h1:xItf1KM7rvhDEekEBzHukNTiCxZHtjBEzCCAN7mwnUg=
+github.com/jmillandev/bookstore_oauth-go v0.0.0-20211202041241-5d34e26e5864/go.mod h1:+x8O3OBQrn0qoBQT/gERHffQfYqWYI1W5yCOaXr+cZY=
+github.com/jmillandev/bookstore_utils-go v0.0.0-20211202040453-d3363839892e h1:HcCyKcrBFiQ3CD+jmwDSytttm9E5V17QiACTqTUQehE=
+github.com/jmillandev/bookstore_utils-go v0.0.0-20211202040453-d3363839892e/go.mod h1:ATeRAL43a5ze4yn5ik/x4UuO1CPLoVENbB+8iB8VjeE=
