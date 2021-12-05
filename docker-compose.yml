@@ -1,0 +1,14 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: elasticsearch:7.14.2
+    environment:
+      - discovery.type=single-node
+    volumes:
+      - user_elasticsearch_db:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
+volumes:
+  user_elasticsearch_db:
