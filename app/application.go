@@ -6,6 +6,7 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/jmillandev/bookstore_items-api/clients/elasticsearch"
+	"github.com/jmillandev/bookstore_utils-go/logger"
 )
 
 var (
@@ -23,6 +24,7 @@ func StartApplication() {
 		ReadTimeout:  15 * time.Second,
 	}
 
+	logger.Info("Server starting on port 8888...")
 	if err := srv.ListenAndServe(); err != nil {
 		panic(err)
 	}
