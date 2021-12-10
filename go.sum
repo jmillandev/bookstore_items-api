@@ -11,6 +11,8 @@ github.com/jmillandev/bookstore_utils-go v0.0.0-20211202040453-d3363839892e h1:H
 github.com/jmillandev/bookstore_utils-go v0.0.0-20211202040453-d3363839892e/go.mod h1:ATeRAL43a5ze4yn5ik/x4UuO1CPLoVENbB+8iB8VjeE=
 github.com/jmillandev/bookstore_utils-go v0.0.0-20211205042447-83ba443c93fc h1:giPuWGucCyISojvgSV3+UfTfwX0YBqEbdifP//SvidM=
 github.com/jmillandev/bookstore_utils-go v0.0.0-20211205042447-83ba443c93fc/go.mod h1:ATeRAL43a5ze4yn5ik/x4UuO1CPLoVENbB+8iB8VjeE=
+github.com/jmillandev/bookstore_utils-go v0.0.0-20211210144620-a6f3eb3cf39a h1:bW8SUOkeZIypRNsBZQTLbDtU56Dr0pF0s1FDOlem1K0=
+github.com/jmillandev/bookstore_utils-go v0.0.0-20211210144620-a6f3eb3cf39a/go.mod h1:fwItOW93dfK7MoaQYLlyA5qHmAW5TBuZ5HhyT6b6E5g=
 github.com/josharian/intern v1.0.0 h1:vlS4z54oSdjm0bgjRigI+G1HpF+tI+9rE5LLzOg8HmY=
 github.com/josharian/intern v1.0.0/go.mod h1:5DoeVV0s6jJacbCEi61lwdGj/aVlrQvzHFFd8Hwg//Y=
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
