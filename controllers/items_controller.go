@@ -31,7 +31,7 @@ func (c *itemsController) Create(w http.ResponseWriter, r *http.Request) {
 	}
 	sellerId := oauth.GetCallerId(r)
 	if sellerId == 0 {
-		err := rest_errors.NewUnauthorizedError()
+		err := rest_errors.NewUnauthorizedError("invalid access token")
 		http_utils.ResponseJsonError(w, err)
 		return
 	}
