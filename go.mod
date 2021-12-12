@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/gorilla/mux v1.8.0
 	github.com/jmillandev/bookstore_oauth-go v1.0.1-0.20211211235655-80da883d3f4c
-	github.com/jmillandev/bookstore_utils-go v1.0.1-0.20211211233954-05147d4c3dc9
+	github.com/jmillandev/bookstore_utils-go v1.0.1
 	github.com/olivere/elastic v6.2.37+incompatible
 )
 
