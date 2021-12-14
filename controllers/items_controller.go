@@ -61,4 +61,14 @@ func (c *itemsController) Create(w http.ResponseWriter, r *http.Request) {
 	http_utils.ResponseJson(w, http.StatusCreated, result)
 }
 
-func (c *itemsController) Get(w http.ResponseWriter, r *http.Request) {}
+func (c *itemsController) Get(w http.ResponseWriter, r *http.Request) {
+	vars := mux.Vars(r)
+	itemId := strings.TrimSpace(vars["id"])
+
+	item, getErr := services.ItemsService.Get(itemId)
+	if getErr != nil {
+		http_utils.ResponseJsonError(w, getErr)
+		return
+	}
+	http_utils.ResponseJson(w, http.StatusOK, item)
+}
